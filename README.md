@@ -15,10 +15,11 @@ the analysis:
     
       - Click
         **RStudio**: [![Binder](http://mybinder.org/badge_logo.svg)](http://mybinder.org/v2/gh/manika-lamba/gender/main?urlpath=rstudio) to launch an interactive 
-        [RStudio](https://rstudio.com/) session in your web browser. In the virtual environment, open the `text_network_analysis.R` file to perform network text analysis.
+        [RStudio](https://rstudio.com/) session in your web browser. In the virtual environment, open the `coding_shiny_app.R` file run the code.
         
        - Click
-        **Jupyter+R**: [![Binder](http://mybinder.org/badge_logo.svg)](http://mybinder.org/v2/gh/manika-lamba/gender/main?filepath=Case_Study_5B.ipynb) to launch an interactive [Jupyter Notebook](https://jupyter.org/) session in your web browser using [R](https://cloud.r-project.org/index.html) kernel. When you execute code within the notebook, the results appear beneath the code.
+        **RShiny**: [![Binder](http://mybinder.org/badge_logo.svg)](http://mybinder.org/v2/gh/manika-lamba/gender/main?urlpath=shiny/bus-dashboard/)
+        to launch an interactive [RShiny](https://shiny.rstudio.com/) session in your web browser using [R](https://cloud.r-project.org/index.html) kernel. When you execute code within the notebook, the results appear beneath the code.
         
        - **Limitations of Binder**
          1. The server has limited memory so you cannot load large datasets or run big computations.
