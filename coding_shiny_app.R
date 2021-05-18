@@ -11,13 +11,13 @@ library(digest)
 ## Set file paths **EACH USER SHOULD UPDATE**
 
 # *Update with your source path to the app folder*
-# app_path <- #ADD HERE
+ app_path <- "/code_shiny_app.R"
 
 # Responses path (no need to change)
-responses_path <- file.path(app_path, "responses/")
+responses_path <- file.path(app_path, "/responses/")
 
 # Data file to pull abstracts from
-input_file <- "dataset_coded_clean.RDS"
+input_file <- "/auto_abstracts_for_app.RDS"
 
 
 ######################################################
