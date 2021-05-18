@@ -17,7 +17,7 @@ library(digest)
 responses_path <- file.path(app_path, "/responses/")
 
 # Data file to pull abstracts from
-input_file <- readRDS('auto_abstracts_for_app.rds')
+input_file <- read.csv("/journals.csv")
 
 
 ######################################################
