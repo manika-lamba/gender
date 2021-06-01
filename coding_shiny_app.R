@@ -17,7 +17,7 @@ library(digest)
 responses_path <- file.path(app_path, "/responses/")
 
 # Data file to pull abstracts from
-input_file <- read.csv("/journals.csv")
+input_file <- read.csv("journals.csv")
 
 
 ######################################################
