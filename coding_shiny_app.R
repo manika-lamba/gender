@@ -167,7 +167,7 @@ fields <- c("name", "code_choice")
 server <- function(input, output, session) {
     
     # Call data to code ------------------------------------------
-    dataset <- read_csv(file.path(app_path, input_file))
+    dataset <- read_csv("journal.csv")
     
     # Call prior responses and extract file and data list elements
     priorData <- loadPriors()
