@@ -14,7 +14,7 @@ library(digest)
  app_path <- "/code_shiny_app.R"
 
 # Responses path (no need to change)
-responses_path <- file.path(app_path, "/responses/")
+responses_path <- file.path("/responses/")
 
 # Data file to pull abstracts from
 input_file <- read.csv("journals.csv")
