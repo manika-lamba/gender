@@ -1,4 +1,10 @@
-# How to download or install
+# A Dataset of Gender and Politics Research [![DOI](https://zenodo.org/badge/368603729.svg)](https://doi.org/10.5281/zenodo.4973729)
+
+## Description
+
+This application provides access to the data presented and discussed in Carolyn Barnett, Michael FitzGerald, Katie Krumbholz, and Manika Lamba, "Gender Research in Political Science Journals: A Dataset," PS: Political Science and Politics , 2022. The article and its accompanying online appendix discuss in detail the methodology used to collect and code the articles in the dataset. The full dataset is also available in .rds format, with additional documentation, on the Harvard Dataverse at https://doi.org/10.7910/DVN/UVWRTV . The authors thank John Kim for creating this Shiny app. Any questions should be directed to one of the study authors listed above.
+
+## How to download or install
 There are several ways to use the compendium’s contents and reproduce
 the analysis:
 
